@@ -10,13 +10,31 @@ body {
   scroll-behavior: smooth;
 }
 
-#aboutsection {
+#aboutsection , .mother , .bespoke , .capsule, .girlwear {
   background-image: url(./assets/images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.mother{
+  background-image: url(./assets/images/esty8.jpg);
+}
+
+.bespoke{
+  background-image: url(./assets/images/esty12.jpg);
+}
+
+.capsule{
+  background-image: url(./assets/images/esty13.jpg);
+background-position: center 25%;
+}
+
+.girlwear{
+  background-image: url(./assets/images/esty7.jpg);
+  background-position: center 40%;
+
+}
 /* .firstCard{
   background-image: url(./assets/images/esty2.jpg);
   border-radius: 9px;

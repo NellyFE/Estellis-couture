@@ -5,6 +5,7 @@ import { Hero } from "./Components/sections/Hero";
 import { About } from "./Components/sections/About";
 import { Categories } from "./Components/sections/Categories";
 
+
 function App() {
   return (
     <>
