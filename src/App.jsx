@@ -4,7 +4,8 @@ import { Navbar } from "./Components/sections/Navbar";
 import { Hero } from "./Components/sections/Hero";
 import { About } from "./Components/sections/About";
 import { Categories } from "./Components/sections/Categories";
-
+import { Process } from "./Components/sections/Process";
+import { Carousel } from "./Components/sections/Carousel";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
       <About />
 
       <Categories />
+
+      <Process/>
+
+      <Carousel/>
     </>
   );
 }
