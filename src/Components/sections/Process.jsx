@@ -9,7 +9,7 @@ export const Process = () => {
         </h1>
 
         <div className="flex flex-wrap md:flex-nowrap py-6 gap-6">
-          <div className="flex flex-col border border-transparent w-1/4 p-4 rounded-lg bg-white/50 shadow-2xl shadow-black/40 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
+          <div className="flex flex-col border border-transparent w-1/4 p-6 rounded-lg bg-white/50 shadow-lg shadow-black/30 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
             <h2 className="font-bold text-[#ff9022]  border-b pb-2 ">
               Consultation
             </h2>
@@ -19,17 +19,17 @@ export const Process = () => {
             </p>
           </div>
 
-          <div className="flex flex-col border border-transparent w-1/4 p-4 rounded-lg bg-white/50 shadow-2xl shadow-black/40 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
+          <div className="flex flex-col border border-transparent w-1/4 p-6 rounded-lg bg-white/50 shadow-lg shadow-black/30 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
             <h2 className="font-bold text-[#ff9022]  border-b pb-2 ">
               Design and Fabric Selection
             </h2>
             <p className="mt-2">
               Together, we choose the perfect fabrics and sketch out your custom
-              design — refined to suit your taste and comfort.
+              design, refined to suit your taste and comfort.
             </p>
           </div>
 
-          <div className="flex flex-col border border-transparent w-1/4 p-4 rounded-lg bg-white/50 shadow-2xl shadow-black/40 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
+          <div className="flex flex-col border border-transparent w-1/4 p-6 rounded-lg bg-white/50 shadow-lg shadow-black/30 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
             <h2 className="font-bold text-[#ff9022]  border-b pb-2 ">
               Tailoring & Fittings
             </h2>
@@ -39,7 +39,7 @@ export const Process = () => {
             </p>
           </div>
 
-          <div className="flex flex-col border border-transparent w-1/4 p-4 rounded-lg bg-white/50 shadow-2xl shadow-black/40 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
+          <div className="flex flex-col border border-transparent w-1/4 p-6 rounded-lg bg-white/50 shadow-lg shadow-black/30 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
             <h2 className="font-bold text-[#ff9022]  border-b pb-2 ">
               Delivery
             </h2>

@@ -3,26 +3,21 @@ import { useState } from "react";
 export const About = () => {
   const [activePage, setActivePage] = useState("where");
 
-  //   let imgLink = "";
-  //   if (activePage === "") {
-  //     imgLink = "/";
-  //   }
-
   return (
     <section id="about">
       {/* the parent container */}
       <div
         id="aboutsection"
-        className="flex mx-auto px-12 py-6 justify-between space-x-8 h-96"
+        className="flex mx-auto px-12 py-12 justify-between space-x-8 h-96"
       >
         {/* image container */}
 
         <div className="w-1/2 h-full">
           {activePage === "where" && (
             <img
-              src="./src/assets/images/esty4.jpg"
+              src="./src/assets/images/estya.jpg"
               alt="image"
-              className="w-full h-full object-cover object-[50%_29%] rounded fade-in"
+              className="w-full h-full object-cover object-[50%_99%] rounded fade-in"
             />
           )}
 
@@ -36,10 +31,10 @@ export const About = () => {
 
           {activePage === "who" && (
             <img
-              src="./src/assets/images/esty2.jpg"
-              alt="image"
-              className="w-full h-full object-cover rounded fade-in"
-            />
+            src="./src/assets/images/esty4.jpg"
+            alt="image"
+            className="w-full h-full object-cover object-[50%_29%] rounded fade-in"
+          />
           )}
         </div>
 

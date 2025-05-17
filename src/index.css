@@ -10,30 +10,38 @@ body {
   scroll-behavior: smooth;
 }
 
-#aboutsection , .mother , .bespoke , .capsule, .girlwear {
+#aboutsection,
+.mother,
+.bespoke,
+.capsule,
+.girlwear,
+#lookbook {
   background-image: url(./assets/images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
-.mother{
+.mother {
   background-image: url(./assets/images/esty8.jpg);
 }
 
-.bespoke{
+.bespoke {
   background-image: url(./assets/images/esty12.jpg);
 }
 
-.capsule{
+.capsule {
   background-image: url(./assets/images/esty13.jpg);
-background-position: center 25%;
+  background-position: center 25%;
 }
 
-.girlwear{
+.girlwear {
   background-image: url(./assets/images/esty7.jpg);
   background-position: center 40%;
+}
 
+#lookbook {
+  background-image: url(assets/images/bg3.jpg);
 }
 /* .firstCard{
   background-image: url(./assets/images/esty2.jpg);
@@ -51,5 +59,10 @@ background-position: center 25%;
 }
 
 .fade-in {
-  animation: fadeIn 0.8s ease-in-out;   
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #ff9022 !important;
 }
