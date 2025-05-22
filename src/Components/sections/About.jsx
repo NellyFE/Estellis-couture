@@ -1,14 +1,15 @@
 import { useState } from "react";
+import { MobileAbout } from "./MobileAbout";
 
 export const About = () => {
   const [activePage, setActivePage] = useState("where");
 
   return (
-    <section id="about">
+    <section id="about" > 
       {/* the parent container */}
       <div
         id="aboutsection"
-        className="flex mx-auto px-12 py-12 justify-between space-x-8 h-96"
+        className="hidden md:flex flex-col md:flex-row mx-auto p-12 justify-between space-x-8 h-96"
       >
         {/* image container */}
 
@@ -38,7 +39,7 @@ export const About = () => {
           )}
         </div>
 
-        {/* text container */}
+         {/* text container */}
         <div className="w-1/2">
           <p className="font-bold mb-2">About</p>
           <h2 className="text-2xl font-bold mb-4">
@@ -50,7 +51,7 @@ export const About = () => {
             <button
               onClick={() => setActivePage("where")}
               className={`${
-                activePage === "where" && "bg-[#fcbd7d]"
+                activePage=== "where" && "bg-[#fcbd7d]"
               }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               Where it began
@@ -63,7 +64,7 @@ export const About = () => {
               }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               How it's made
-            </button>
+            </button>   
 
             <button
               onClick={() => setActivePage("who")}
@@ -73,6 +74,7 @@ export const About = () => {
             >
               Who it's for
             </button>
+            
           </div>
           {activePage === "where" && (
             <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
@@ -101,7 +103,15 @@ export const About = () => {
             </p>
           )}
         </div>
+
       </div>
+
+      <div className="md:hidden">
+ <MobileAbout/>
+      </div>
+
+     
+
     </section>
   );
 };

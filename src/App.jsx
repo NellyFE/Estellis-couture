@@ -6,6 +6,10 @@ import { About } from "./Components/sections/About";
 import { Categories } from "./Components/sections/Categories";
 import { Process } from "./Components/sections/Process";
 import { Carousel } from "./Components/sections/Carousel";
+import { Contact } from "./Components/sections/Contact";
+import { Footer } from "./Components/sections/Footer";
+import { MobileAbout } from "./Components/sections/MobileAbout";
+
 
 function App() {
   return (
@@ -15,12 +19,18 @@ function App() {
       <Hero />
 
       <About />
+    
 
       <Categories />
 
       <Process/>
 
       <Carousel/>
+
+      <Contact/>
+
+      <Footer/>
+
     </>
   );
 }

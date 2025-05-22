@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 .logoimg {
   filter: grayscale(2) invert(2);
 }
@@ -15,7 +19,7 @@ body {
 .bespoke,
 .capsule,
 .girlwear,
-#lookbook {
+#lookbook, .me , #footer {
   background-image: url(./assets/images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -43,10 +47,17 @@ body {
 #lookbook {
   background-image: url(assets/images/bg3.jpg);
 }
-/* .firstCard{
-  background-image: url(./assets/images/esty2.jpg);
-  border-radius: 9px;
-} */
+
+.me{
+  background-image: url(assets/images/bgheart.jpg);
+  background-position: bottom;
+}
+
+#footer{
+  background-image: url(assets/images/bg-p.jpg);
+    background-position: bottom;
+
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -65,4 +76,9 @@ body {
 .swiper-button-next,
 .swiper-button-prev {
   color: #ff9022 !important;
+}
+
+*{
+  outline:1px solid red;
+  
 }
