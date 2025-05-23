@@ -1,19 +1,24 @@
 import { useState } from "react";
-import { MobileAbout } from "./MobileAbout";
 
 export const About = () => {
   const [activePage, setActivePage] = useState("where");
 
   return (
-    <section id="about" > 
+    <section id="about" className="h-screen md:h-96" > 
       {/* the parent container */}
       <div
         id="aboutsection"
-        className="hidden md:flex flex-col md:flex-row mx-auto p-12 justify-between space-x-8 h-96"
+        className="flex flex-col md:flex-row mx-auto p-12 justify-between md:space-x-8 h-96 gap-28 md:gap-0"
       >
         {/* image container */}
 
-        <div className="w-1/2 h-full">
+        <div className="w-full md:w-1/2 h-full">
+
+        <p className="md:hidden font-bold mb-2">About</p>
+          <h2 className="md:hidden text-2xl font-bold mb-4">
+            More than fashion. It's a statement
+          </h2>
+
           {activePage === "where" && (
             <img
               src="./src/assets/images/estya.jpg"
@@ -40,21 +45,22 @@ export const About = () => {
         </div>
 
          {/* text container */}
-        <div className="w-1/2">
-          <p className="font-bold mb-2">About</p>
-          <h2 className="text-2xl font-bold mb-4">
+        <div className="flex md:flex-col w-full md:w-1/2 h-96">
+          
+          <p className="hidden md:flex font-bold mb-2">About</p>
+          <h2 className="hidden md:flex text-2xl font-bold mb-4">
             More than fashion. It's a statement
           </h2>
 
           {/* the container for the about cards */}
-          <div className="flex space-x-6 mb-6">
+          <div className="flex flex-col md:flex-row bg-[#fcbd7d]/20 md:bg-transparent gap-6 mb-0 md:mb-6 "> 
             <button
               onClick={() => setActivePage("where")}
               className={`${
                 activePage=== "where" && "bg-[#fcbd7d]"
-              }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              } p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
-              Where it began
+              Where&nbsp;it&nbsp;began
             </button>
 
             <button
@@ -69,13 +75,14 @@ export const About = () => {
             <button
               onClick={() => setActivePage("who")}
               className={`${
-                activePage === "who" && "bg-[#fcbd7d]/70"
-              }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+                activePage === "who" && "bg-[#fcbd7d]"
+              } p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
-              Who it's for
+              Who&nbsp;it's&nbsp;for
             </button>
-            
+
           </div>
+
           {activePage === "where" && (
             <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
               {" "}
@@ -107,7 +114,7 @@ export const About = () => {
       </div>
 
       <div className="md:hidden">
- <MobileAbout/>
+
       </div>
 
      

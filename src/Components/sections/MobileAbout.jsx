@@ -1,99 +1,104 @@
 import { useState } from "react";
 
 export const MobileAbout = () => {
-     const [activePage, setActivePage] = useState("where");
+  const [hovered1, setIsHovered1] = useState(false);
+  const [hovered2, setIsHovered2] = useState(false);
+  const [hovered3, setIsHovered3] = useState(false);
+  const [hovered4, setIsHovered4] = useState(false);
 
   return (
-    <section className="flex md:hidden">
-      <div className="h-screen mx-auto p-12 justify-between" >
-        {/* image container */}
+    <div className="flex flex-col md:hidden justify-between gap-6 rounded-lg w-full h-full ">
+      <div
+        className="bespoke bg-top relative min-h-[400px] rounded-lg overflow-hidden"
+        onMouseEnter={() => setIsHovered1(true)}
+        onMouseLeave={() => setIsHovered1(false)}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end text-white text-center p-6 bg-gradient-to-t from-black/90 to-transparent transition-all duration-500 ease-in-out">
+          <p className="text-2xl">Bespoke Womenswear</p>
 
-        <div className="w-full h-full">
-          <p className="font-bold mb-2">About</p>
-          <h2 className="text-2xl font-bold mb-4">
-            More than fashion. It's a statement
-          </h2>
-
-          {activePage === "where" && (
-            <img
-              src="./src/assets/images/estya.jpg"
-              alt="image"
-              className="w-full h-full object-cover object-[50%_99%] rounded fade-in"
-            />
-          )}
-
-          {activePage === "how" && (
-            <img
-              src="./src/assets/images/esty6.jpg"
-              alt="image"
-              className="w-full h-full object-cover rounded fade-in"
-            />
-          )}
-
-          {activePage === "who" && (
-            <img
-              src="./src/assets/images/esty4.jpg"
-              alt="image"
-              className="w-full h-full object-cover object-[50%_29%] rounded fade-in"
-            />
+          {hovered1 && (
+            <>
+              <p className="mt-4">
+                Gowns, suits, and foundational pieces crafted from scratch for
+                women who want clarity, not costume.
+              </p>
+              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+                Shop now
+              </button>
+            </>
           )}
         </div>
-
-        {/* the container for the about cards */}
-        <div className="flex space-x-6 mb-6">
-          <button
-            onClick={() => setActivePage("where")}
-            className={`${
-              activePage === "where" && "bg-[#fcbd7d]"
-            }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
-          >
-            Where it began
-          </button>
-
-          <button
-            onClick={() => setActivePage("how")}
-            className={`${
-              activePage === "how" && "bg-[#fcbd7d]"
-            }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
-          >
-            How it's made
-          </button>
-
-          <button
-            onClick={() => setActivePage("who")}
-            className={`${
-              activePage === "who" && "bg-[#fcbd7d]/70"
-            }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
-          >
-            Who it's for
-          </button>
-        </div>
-        {activePage === "where" && (
-          <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
-            {" "}
-            Our journey began with a desire to redefine femininity,to create
-            fashion that merges grace with strength. What started as sketches
-            and late-night ideas became a brand built to celebrate the power in
-            every woman.
-          </p>
-        )}
-
-        {activePage === "how" && (
-          <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
-            Each piece is crafted with purpose from hand-picked fabrics to
-            sculpted silhouettes. We blend traditional techniques with modern
-            design to create garments that feel as powerful as they look.
-          </p>
-        )}
-
-        {activePage === "who" && (
-          <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
-            Our designs are made for women who lead with quiet confidence, who
-            own every room they enter. She’s bold, refined, and unapologetically
-            herself and she deserves fashion that reflects that.
-          </p>
-        )}
       </div>
-    </section>
+
+      {/* the two middle cards */}
+
+      <div
+        className="girlwear relative min-h-[400px] rounded-lg overflow-hidden"
+        onMouseEnter={() => setIsHovered2(true)}
+        onMouseLeave={() => setIsHovered2(false)}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end text-white text-center p-6 bg-gradient-to-t from-black/90 to-transparent transition-all duration-500 ease-in-out">
+          <p className="text-2xl">Girlwear</p>
+
+          {hovered2 && (
+            <>
+              <p className="mt-4">
+                Tailored clothing for girls aged 8-16, made for comfort,
+                confidence, and special moments with family.
+              </p>
+              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+                Shop now
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+
+      {/* 2 */}
+      <div
+        className="capsule relative min-h-[400px] rounded-lg overflow-hidden"
+        onMouseEnter={() => setIsHovered3(true)}
+        onMouseLeave={() => setIsHovered3(false)}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end text-white text-center p-6 bg-gradient-to-t from-black/90 to-transparent transition-all duration-500 ease-in-out">
+          <p className="text-2xl">Everyday Tailored</p>
+
+          {hovered3 && (
+            <>
+              <p className="mt-4">
+                Effortless, custom casuals for daily wear, made to bring ease,
+                style, and longevity to your wardrobe.
+              </p>
+              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+                Shop now
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+
+      {/* the last card */}
+      <div
+        className="mother relative min-h-[400px] rounded-lg overflow-hidden"
+        onMouseEnter={() => setIsHovered4(true)}
+        onMouseLeave={() => setIsHovered4(false)}
+      >
+        <div className="absolute inset-0 flex flex-col justify-end text-white text-center p-6 bg-gradient-to-t from-black/90 to-transparent transition-all duration-500 ease-in-out">
+          <p className="text-2xl">Bridal Wear</p>
+
+          {hovered4 && (
+            <>
+              <p className="mt-4">
+                Thoughtfully designed bridal pieces that reflect your story and
+                make you feel special on your big day.
+              </p>
+              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+                Shop now
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+    </div>
   );
 };

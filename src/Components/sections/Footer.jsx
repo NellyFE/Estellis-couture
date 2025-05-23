@@ -6,8 +6,11 @@ import { HiOutlineMail } from "react-icons/hi";
 
 export const Footer = () => {
   return (
-    <section id="footer">
-      <div className="flex flex-col-reverse md:flex-row border mx-auto px-12 py-6  text-white">
+    <section id="footer" className="relative">
+
+       <div className="absolute inset-0 bg-black/60 z-0"></div>
+
+      <div className="relative z-10 flex flex-col-reverse md:flex-row border mx-auto px-12 py-6  text-white">
 
         <div className="flex flex-2">
         <div className="flex flex-col justify-between gap-4 w-1/2">
@@ -16,7 +19,7 @@ export const Footer = () => {
               <img
                 src="./src/assets/images/logo.png"
                 alt="logo"
-                className="logoimg w-24"
+                className="logoimg w-24"  
               />
             </a> 
           </div>

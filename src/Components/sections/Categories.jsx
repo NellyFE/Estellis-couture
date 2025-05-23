@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { MobileAbout } from "./MobileAbout";
 
 export const Categories = () => {
   const [hovered1, setIsHovered1] = useState(false);
@@ -7,8 +8,8 @@ export const Categories = () => {
   const [hovered4, setIsHovered4] = useState(false);
 
   return (
-    <section id="categories">
-      <div className="flex flex-col mx-auto px-12 items-center py-6 justify-between space-y-4 h-screen ">
+    <section id="categories" className="h-fit md:h-screen">
+      <div className="flex flex-col mx-auto px-12 items-center py-6 justify-between space-y-4 md:h-screen">
         <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
           Shop by Categories
         </h1>
@@ -16,7 +17,7 @@ export const Categories = () => {
           Have a look on what categories we have{" "}
         </p>
 
-        <div className="flex flex-wrap md:flex-nowrap justify-between gap-6 rounded-lg w-full h-full ">
+        <div className="hidden md:flex justify-between gap-6 rounded-lg w-full h-full ">
           <div
             className="bespoke rounded-lg flex flex-col flex-1"
             onMouseEnter={() => {
@@ -134,6 +135,8 @@ export const Categories = () => {
             </div>
           </div>
         </div>
+
+        <MobileAbout />
       </div>
     </section>
   );

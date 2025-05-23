@@ -25,6 +25,10 @@ export const Navbar = () => {
             </a>
         </div>
 
+        <div className="w-7 h-5 relative cursor-pointer z-40 md:hidden text-white" onClick={() => setMenuOpen((prev) => !prev)}>
+                    &#9776;
+                </div>
+
 {/* the navbar */}
         <div className="hidden md:flex items-center space-x-8 ">
             <a href="#home" className="text-white font-bold">Home</a>

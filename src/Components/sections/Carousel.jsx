@@ -11,10 +11,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export const Carousel = () => {
   return (
     <section id="lookbook">
-<div className="h-screen text-center flex flex-col items-center justify-center px-12 py-6 ">
+<div className="h-screen text-center flex flex-col items-center justify-center px-12 py-6  ">
 <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
         Lookbook</h1>
-      <p className="p-6 w-1/2">
+      <p className="p-2 md:p-6 w-full md:w-1/2">
        Here’s a glimpse into what
         we’ve made, and what we can make for you.
       </p>
@@ -29,7 +29,7 @@ export const Carousel = () => {
        
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper h-full border-6 border-[#fcbd7d]/20 rounded-lg w-1/3"
+        className="mySwiper h-full border-6 border-[#fcbd7d]/20 rounded-lg w-full md:w-1/3"
       >
         <SwiperSlide className="flex justify-center" >
         <img
