@@ -4,7 +4,7 @@ export const Hero = () => {
       <div className="absolute inset-0">
         <div className="w-full h-full bg-gradient-to-r from-black/90 to-transparent overflow-hidden ">
           <img
-            src="./src/assets/images/heroimg.jpg"
+            src="/heroimg.jpg"
             alt="Hero Background"
             className="w-full h-full object-cover mix-blend-overlay"
           />
