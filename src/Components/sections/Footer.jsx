@@ -17,7 +17,7 @@ export const Footer = () => {
           <div>
             <a href="#">
               <img
-                src="./src/assets/images/logo.png"
+                src="/logo.png"
                 alt="logo"
                 className="logoimg w-24"  
               />

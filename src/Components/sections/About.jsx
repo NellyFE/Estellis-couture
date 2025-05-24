@@ -21,7 +21,7 @@ export const About = () => {
 
           {activePage === "where" && (
             <img
-              src="./src/assets/images/estya.jpg"
+              src="/images/estya.jpg"
               alt="image"
               className="w-full h-full object-cover object-[50%_99%] rounded fade-in"
             />
@@ -29,7 +29,7 @@ export const About = () => {
 
           {activePage === "how" && (
             <img
-              src="./src/assets/images/esty6.jpg"
+              src="/images/esty6.jpg"
               alt="image"
               className="w-full h-full object-cover rounded fade-in"
             />
@@ -37,7 +37,7 @@ export const About = () => {
 
           {activePage === "who" && (
             <img
-            src="./src/assets/images/esty4.jpg"
+            src="./images/esty4.jpg"
             alt="image"
             className="w-full h-full object-cover object-[50%_29%] rounded fade-in"
           />

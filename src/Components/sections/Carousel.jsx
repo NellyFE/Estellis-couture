@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 export const Carousel = () => {
   return (
     <section id="lookbook">
-<div className="h-screen text-center flex flex-col items-center justify-center px-12 py-6  ">
+<div className="h-screen text-center flex flex-col items-center justify-center px-4 md:px-12 py-6  ">
 <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
         Lookbook</h1>
       <p className="p-2 md:p-6 w-full md:w-1/2">
@@ -33,63 +33,63 @@ export const Carousel = () => {
       >
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty10.jpg"
+            src="/images/esty10.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center">
         <img
-            src="./src/assets/images/esty25.jpg"
+            src="/images/esty25.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center">
         <img
-            src="./src/assets/images/esty24.jpg"
+            src="/images/esty24.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty23.jpg"
+            src="/images/esty23.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty19.jpg"
+            src="/images/esty19.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty13.jpg"
+            src="/images/esty13.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty14.jpg"
+            src="/images/esty14.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty2.jpg"
+            src="/images/esty2.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty18.jpg"
+            src="/images/esty18.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
@@ -97,77 +97,77 @@ export const Carousel = () => {
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty21.jpg"
+            src="/images/esty21.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty16.jpg"
+            src="/images/esty16.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty15.jpg"
+            src="/images/esty15.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty29.jpg"
+            src="/images/esty29.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty26.jpg"
+            src="/images/esty26.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty22.jpg"
+            src="/images/esty22.jpg"
             className=" w-full h-full object-cover object-[50%_20%] "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty11.jpg"
+            src="/images/esty11.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide>
         <img
-            src="./src/assets/images/esty17.jpg"
+            src="/images/esty17.jpg"
             className="w-full h-full  object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty20.jpg"
+            src="/images/esty20.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty9.jpg"
+            src="/images/esty9.jpg"
             className=" w-full h-full object-cover object-[50%_20%] "
           />{" "}
         </SwiperSlide>
 
         <SwiperSlide className="flex justify-center" >
         <img
-            src="./src/assets/images/esty28.jpg"
+            src="/images/esty28.jpg"
             className=" w-full h-full object-cover "
           />{" "}
         </SwiperSlide>

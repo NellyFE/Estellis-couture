@@ -20,41 +20,41 @@ body {
 .capsule,
 .girlwear,
 #lookbook, .me , #footer {
-  background-image: url(./assets/images/bg3.jpg);
+  background-image: url(./images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .mother {
-  background-image: url(./assets/images/esty8.jpg);
+  background-image: url(/images/esty8.jpg);
 }
 
 .bespoke {
-  background-image: url(./assets/images/esty12.jpg);
+  background-image: url(/images/esty12.jpg);
 }
 
 .capsule {
-  background-image: url(./assets/images/esty13.jpg);
+  background-image: url(/images/esty13.jpg);
   background-position: center 25%;
 }
 
 .girlwear {
-  background-image: url(./assets/images/esty7.jpg);
+  background-image: url(/images/esty7.jpg);
   background-position: center 40%;
 }
 
 #lookbook {
-  background-image: url(assets/images/bg3.jpg);
+  background-image: url(/images/bg3.jpg);
 }
 
 .me{
-  background-image: url(assets/images/bgheart.jpg);
+  background-image: url(/images/bgheart.jpg);
   background-position: bottom;
 }
 
 #footer{
-  background-image: url(assets/images/bg-p.jpg);
+  background-image: url(/images/bg-p.jpg);
     background-position: bottom;
 
 }
