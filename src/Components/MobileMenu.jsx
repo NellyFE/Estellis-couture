@@ -14,7 +14,7 @@ export const MobileMenu = ({ isOpen, onClose }) => {
       <a href="#home" onClick={onClose} className="border-b border-transparent hover:border-[#fcbd7d]">
         Home
       </a>
-      <a href="#About" onClick={onClose} className="border-b border-transparent hover:border-[#fcbd7d]">
+      <a href="#about" onClick={onClose} className="border-b border-transparent hover:border-[#fcbd7d]">
         About
       </a>
       <a href="#lookbook" onClick={onClose} className="border-b border-transparent hover:border-[#fcbd7d]">

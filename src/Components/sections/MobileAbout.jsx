@@ -22,9 +22,9 @@ export const MobileAbout = () => {
                 Gowns, suits, and foundational pieces crafted from scratch for
                 women who want clarity, not costume.
               </p>
-              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+             <a href="https://wa.link/0r6zbs"> <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
                 Shop now
-              </button>
+              </button></a>
             </>
           )}
         </div>
@@ -46,9 +46,9 @@ export const MobileAbout = () => {
                 Tailored clothing for girls aged 8-16, made for comfort,
                 confidence, and special moments with family.
               </p>
-              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+             <a href="https://wa.link/d3dqo5"> <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
                 Shop now
-              </button>
+              </button></a>
             </>
           )}
         </div>
@@ -69,9 +69,9 @@ export const MobileAbout = () => {
                 Effortless, custom casuals for daily wear, made to bring ease,
                 style, and longevity to your wardrobe.
               </p>
-              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+              <a href="https://wa.link/xhumiq"><button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
                 Shop now
-              </button>
+              </button></a>
             </>
           )}
         </div>
@@ -92,9 +92,9 @@ export const MobileAbout = () => {
                 Thoughtfully designed bridal pieces that reflect your story and
                 make you feel special on your big day.
               </p>
-              <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
+              <a href="https://wa.link/7x6jy9"><button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 hover:bg-transparent">
                 Shop now
-              </button>
+              </button></a>
             </>
           )}
         </div>

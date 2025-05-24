@@ -23,7 +23,7 @@ export const Footer = () => {
                 <FaInstagram className="hover:text-[#fcbd7d] transition-all duration-300" />
               </a>
               <a href="https://www.tiktok.com/@estelliscouture?_t=ZM-8wTxqMho8kK&_r=1">
-                <FaTiktok className="hover:text-[#fcbd7d] transition-all duration-300"/>
+                <FaTiktok className="hover:text-[#fcbd7d] transition-all duration-300" />
               </a>
             </div>
           </div>
@@ -85,7 +85,7 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div class="block text-center text-white/50 text-sm md:hidden">
+      <div class="block text-center !text-white text-sm md:hidden">
         <span>&copy; 2025 All Rights Reserved |</span>
         <a
           href="https://www.linkedin.com/in/makuochukwu"

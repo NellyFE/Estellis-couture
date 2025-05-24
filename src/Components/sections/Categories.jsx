@@ -43,9 +43,9 @@ export const Categories = () => {
               )}
 
               {hovered1 && (
-                <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+                <a href="https://wa.link/0r6zbs"><button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
                   Shop now
-                </button>
+                </button></a>
               )}
             </div>
           </div>
@@ -72,9 +72,9 @@ export const Categories = () => {
                 )}
 
                 {hovered2 && (
-                  <button className="mt-2 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+                 <a href="https://wa.link/d3dqo5"> <button className="mt-2 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
                     Shop now
-                  </button>
+                  </button></a>
                 )}
               </div>
             </div>
@@ -100,9 +100,9 @@ export const Categories = () => {
                 )}
 
                 {hovered3 && (
-                  <button className="mt-2 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+                  <a href="https://wa.link/xhumiq"><button className="mt-2 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
                     Shop now
-                  </button>
+                  </button></a>
                 )}
               </div>
             </div>
@@ -131,9 +131,9 @@ export const Categories = () => {
               )}
 
               {hovered4 && (
-                <button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+                <a href="https://wa.link/7x6jy9"><button className="mt-6 border border-white py-2 px-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
                   Shop now
-                </button>
+                </button></a>
               )}
             </div>
           </div>
