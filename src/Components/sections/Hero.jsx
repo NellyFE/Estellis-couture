@@ -22,7 +22,7 @@ export const Hero = () => {
           woman who is both graceful and powerful.
         </p>
 
-        <button className="mt-8 border border-white p-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+        <button className="mt-8 border border-white p-4 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease duration-300">
           Explore Our Collection →
         </button>
       </div>

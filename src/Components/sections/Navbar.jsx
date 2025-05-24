@@ -40,16 +40,16 @@ export const Navbar = () => {
 
         {/* the navbar */}
         <div className="hidden md:flex items-center space-x-8 ">
-          <a href="#home" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d]">
+          <a href="#home" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d] transition-all duration-300">
             Home
           </a>
-          <a href="#About" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d]">
+          <a href="#About" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d] transition-all duration-300">
             About
           </a>
-          <a href="#lookbook" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d]">
+          <a href="#lookbook" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d] transition-all duration-300">
             Lookbook
           </a>
-          <a href="#contact" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d]">
+          <a href="#contact" className="text-white font-bold border-b border-transparent hover:border-[#fcbd7d] transition-all duration-300">
             Contact
           </a>
         </div>

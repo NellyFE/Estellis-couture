@@ -17,7 +17,7 @@ export const Contact = () => {
           </div>
 
           <div className="flex w-full md:w-1/2 items-end justify-center">
-            <button className="mt-4 md:mt-8 border border-white py-4 px-8 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease">
+            <button className="mt-4 md:mt-8 border border-white py-4 px-8 rounded bg-white/10 cursor-pointer hover:bg-transparent transition-all-ease duration-300">
               Contact Us →
             </button>
           </div>
