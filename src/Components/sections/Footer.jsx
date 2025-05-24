@@ -70,7 +70,7 @@ export const Footer = () => {
             <FaLocationDot /> <p>Lagos, Nigeria</p>{" "}
           </div>
 
-          <div class="hidden text-white md:block">
+          <div class="hidden text-white/50 md:block text-sm">
             <i>
               &copy; 2025 All Rights Reserved |{" "}
               <a
@@ -85,8 +85,8 @@ export const Footer = () => {
         </div>
       </div>
 
-      <div class="block text-center text-white md:hidden">
-        <span>Copyright &copy; 2025 All Rights Reserved |</span>
+      <div class="block text-center text-white/50 text-sm md:hidden">
+        <span>&copy; 2025 All Rights Reserved |</span>
         <a
           href="https://www.linkedin.com/in/makuochukwu"
           class="cursor-pointer"
