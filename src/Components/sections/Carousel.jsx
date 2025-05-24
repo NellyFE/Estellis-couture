@@ -7,10 +7,13 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { RevealOnScroll } from "../ReavelOnScroll";
 
 export const Carousel = () => {
   return (
     <section id="lookbook">
+
+      <RevealOnScroll>
 <div className="h-screen text-center flex flex-col items-center justify-center px-4 md:px-12 py-6  ">
 <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
         Lookbook</h1>
@@ -174,7 +177,7 @@ export const Carousel = () => {
       </Swiper>
     </div>
 
-        
+        </RevealOnScroll>
 
     </section>
   );

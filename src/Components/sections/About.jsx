@@ -1,10 +1,13 @@
 import { useState } from "react";
+import { RevealOnScroll } from "../ReavelOnScroll";
 
 export const About = () => {
   const [activePage, setActivePage] = useState("where");
 
   return (
     <section id="about" className="h-screen md:h-96" > 
+
+    <RevealOnScroll>
       {/* the parent container */}
       <div
         id="aboutsection"
@@ -117,7 +120,7 @@ export const About = () => {
 
       </div>
 
-     
+     </RevealOnScroll>
 
     </section>
   );

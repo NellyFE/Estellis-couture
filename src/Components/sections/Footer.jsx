@@ -8,6 +8,7 @@ export const Footer = () => {
   return (
     <section id="footer" className="relative">
 
+
        <div className="absolute inset-0 bg-black/60 z-0"></div>
 
       <div className="relative z-10 flex flex-col-reverse md:flex-row border mx-auto px-12 py-6  text-white">
@@ -58,6 +59,7 @@ export const Footer = () => {
         <span>Copyright &copy; 2025 All Rights Reserved |</span>
         <a href="https://www.linkedin.com/in/makuochukwu" class="cursor-pointer"> Website by NellyFE </a>
       </div>
+
     </section>
   );
 };

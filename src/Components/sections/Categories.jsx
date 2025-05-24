@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { MobileAbout } from "./MobileAbout";
+import { RevealOnScroll } from "../ReavelOnScroll";
 
 export const Categories = () => {
   const [hovered1, setIsHovered1] = useState(false);
@@ -9,6 +10,8 @@ export const Categories = () => {
 
   return (
     <section id="categories" className="h-fit md:h-screen">
+
+      <RevealOnScroll>
       <div className="flex flex-col mx-auto px-12 items-center py-6 justify-between space-y-4 md:h-screen">
         <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
           Shop by Categories
@@ -138,6 +141,8 @@ export const Categories = () => {
 
         <MobileAbout />
       </div>
+
+      </RevealOnScroll>
     </section>
   );
 };

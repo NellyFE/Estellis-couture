@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -14,12 +14,14 @@ body {
   scroll-behavior: smooth;
 }
 
-#aboutsection,
+#about,
 .mother,
 .bespoke,
 .capsule,
 .girlwear,
-#lookbook, .me , #footer {
+#lookbook,
+.me,
+#footer {
   background-image: url(./images/bg3.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -48,15 +50,14 @@ body {
   background-image: url(/images/bg3.jpg);
 }
 
-.me{
+.me {
   background-image: url(/images/bgheart.jpg);
   background-position: bottom;
 }
 
-#footer{
+#footer {
   background-image: url(/images/bg-p.jpg);
-    background-position: bottom;
-
+  background-position: bottom;
 }
 @keyframes fadeIn {
   from {
@@ -78,7 +79,13 @@ body {
   color: #ff9022 !important;
 }
 
-*{
-  outline:1px solid red;
-  
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
 }

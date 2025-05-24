@@ -1,6 +1,10 @@
+import { RevealOnScroll } from "../ReavelOnScroll"
+
 export const Contact = () => {
   return (
     <section id="contactUs">
+
+      <RevealOnScroll>
       <div className="flex mx-auto p-12">
 
         <div className="me flex flex-col md:flex-row border p-4 md:p-6 justify-between items-center rounded-lg w-full text-white">
@@ -20,6 +24,8 @@ export const Contact = () => {
         </div>
 
       </div>
+
+      </RevealOnScroll>
     </section>
   );
 };

@@ -11,7 +11,7 @@ export const Hero = () => {
         </div>
       </div>
 
-      <div className="relative text-center md:text-left z-10 max-w-xl text-white ml-10">
+      <div className="relative text-center md:text-left z-10 max-w-xl text-white ml-0 md:ml-10">
         <h1 className="text-4xl md:text-5xl font-bold mb-8">
           Elegance in every curve, strength in every seam.
         </h1>
