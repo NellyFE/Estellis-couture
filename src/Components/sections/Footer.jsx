@@ -83,17 +83,20 @@ export const Footer = () => {
             </i>
           </div>
         </div>
+        
       </div>
 
-      <div class="block text-center !text-white text-sm md:hidden">
-        <span>&copy; 2025 All Rights Reserved |</span>
-        <a
-          href="https://www.linkedin.com/in/makuochukwu"
-          class="cursor-pointer"
-        >
-          {" "}
-          Website by NellyFE{" "}
-        </a>
+      <div class="relative block text-center !text-white/50 text-sm md:hidden">
+        <span>
+          &copy; 2025 All Rights Reserved |{" "}
+          <a
+            href="https://www.linkedin.com/in/makuochukwu"
+            class="cursor-pointer"
+          >
+            {" "}
+            Website by NellyFE{" "}
+          </a>
+        </span>
       </div>
     </section>
   );

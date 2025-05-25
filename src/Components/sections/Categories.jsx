@@ -12,7 +12,7 @@ export const Categories = () => {
     <section id="categories" className="h-fit md:h-screen">
 
       <RevealOnScroll>
-      <div className="flex flex-col mx-auto px-12 items-center py-6 justify-between space-y-4 md:h-screen">
+      <div className="flex flex-col mx-auto px-6 md:px-12 items-center py-6 justify-between space-y-4 md:h-screen">
         <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
           Shop by Categories
         </h1>

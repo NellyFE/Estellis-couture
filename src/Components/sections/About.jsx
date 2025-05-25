@@ -17,7 +17,7 @@ export const About = () => {
 
         <div className="w-full md:w-1/2 h-full">
 
-        <p className="md:hidden font-bold mb-2">About</p>
+        <p className="md:hidden font-bold text-[#ff9022] border-b w-8 text-2xl">About</p>
           <h2 className="md:hidden text-2xl font-bold mb-4">
             More than fashion. It's a statement
           </h2>
@@ -26,7 +26,7 @@ export const About = () => {
             <img
               src="/images/estya.jpg"
               alt="image"
-              className="w-full h-full object-cover object-[50%_99%] rounded fade-in"
+              className="w-full h-full object-cover object-[50%_99%] rounded-b-0 md:rounded fade-in"
             />
           )}
 
@@ -34,7 +34,7 @@ export const About = () => {
             <img
               src="/images/esty6.jpg"
               alt="image"
-              className="w-full h-full object-cover rounded fade-in"
+              className="w-full h-full object-cover rounded-b-0 md:rounded fade-in"
             />
           )}
 
@@ -42,13 +42,13 @@ export const About = () => {
             <img
             src="./images/esty4.jpg"
             alt="image"
-            className="w-full h-full object-cover object-[50%_29%] rounded fade-in"
+            className="w-full h-full object-cover object-[50%_29%] rounded-b-0 md:rounded fade-in"
           />
           )}
         </div>
 
          {/* text container */}
-        <div className="flex md:flex-col w-full md:w-1/2 h-96">
+        <div className="flex md:flex-col w-full md:w-1/2 h-96 mt-0.5 md:mt-0">
           
           <p className="hidden md:flex font-bold mb-2">About</p>
           <h2 className="hidden md:flex text-2xl font-bold mb-4">
@@ -56,12 +56,12 @@ export const About = () => {
           </h2>
 
           {/* the container for the about cards */}
-          <div className="flex flex-col md:flex-row bg-[#fcbd7d]/20 md:bg-transparent gap-6 mb-0 md:mb-6 "> 
+          <div className="flex flex-col md:flex-row bg-[#fcbd7d]/20 md:bg-transparent pt-2 md:pt-0 gap-6 mb-0 md:mb-6 "> 
             <button
               onClick={() => setActivePage("where")}
               className={`${
                 activePage=== "where" && "bg-[#fcbd7d]"
-              } p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              } p-2 w-full md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               Where&nbsp;it&nbsp;began
             </button>
@@ -70,16 +70,16 @@ export const About = () => {
               onClick={() => setActivePage("how")}
               className={`${
                 activePage === "how" && "bg-[#fcbd7d]"
-              }  p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              }  p-2 w-full md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
-              How it's made
+              How&nbsp;it's&nbsp;made
             </button>   
 
             <button
               onClick={() => setActivePage("who")}
               className={`${
                 activePage === "who" && "bg-[#fcbd7d]"
-              } p-2 rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              } p-2 w-full md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               Who&nbsp;it's&nbsp;for
             </button>
@@ -87,7 +87,7 @@ export const About = () => {
           </div>
 
           {activePage === "where" && (
-            <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
+            <p className="bg-[#fcbd7d]/20 text-[#333333] w-full py-4 px-2 rounded fade-in">
               {" "}
               Our journey began with a desire to redefine femininity,to create
               fashion that merges grace with strength. What started as sketches
@@ -97,7 +97,7 @@ export const About = () => {
           )}
 
           {activePage === "how" && (
-            <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
+            <p className="bg-[#fcbd7d]/20 text-[#333333] w-full py-4 px-2 rounded fade-in">
               Each piece is crafted with purpose from hand-picked fabrics to
               sculpted silhouettes. We blend traditional techniques with modern
               design to create garments that feel as powerful as they look.
@@ -105,7 +105,7 @@ export const About = () => {
           )}
 
           {activePage === "who" && (
-            <p className="bg-[#fcbd7d]/20 w-3/4 py-4 px-2 rounded fade-in">
+            <p className="bg-[#fcbd7d]/20 text-[#333333] w-full py-4 px-2 rounded fade-in">
               Our designs are made for women who lead with quiet confidence, who
               own every room they enter. She’s bold, refined, and
               unapologetically herself and she deserves fashion that reflects

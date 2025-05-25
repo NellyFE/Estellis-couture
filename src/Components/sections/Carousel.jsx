@@ -11,7 +11,7 @@ import { RevealOnScroll } from "../ReavelOnScroll";
 
 export const Carousel = () => {
   return (
-    <section id="lookbook">
+    <section id="lookbook" className="max-h-fit">
 
       <RevealOnScroll>
 <div className="h-screen text-center flex flex-col items-center justify-center px-4 md:px-12 py-6  ">

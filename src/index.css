@@ -76,13 +76,15 @@ body {
 
 .swiper-button-next,
 .swiper-button-prev {
-  color: #ff9022 !important;
+  color: rgba(255, 255, 255, 0.442) !important;
+
 }
 
 .reveal {
   opacity: 0;
   transform: translateY(20px);
   transition: opacity 0.3s ease, transform 0.3s ease;
+  
 }
 
 .reveal.visible {

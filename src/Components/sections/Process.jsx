@@ -1,14 +1,14 @@
 export const Process = () => {
   return (
-    <section id="process" className="h-fit md:h-96">
+    <section id="process" className="h-fit md:h-[70vh]">
       {/* main container */}
 
-      <div className="flex flex-col items-center justify-center mx-auto px-12 py-6 h-">
+      <div className="flex flex-col items-center justify-center mx-auto px-6 md:px-12 py-6">
         <h1 className="font-bold text-3xl border-b pb-2 text-[#ff9022]">
           Our Process
         </h1>
 
-        <div className="flex flex-col md:flex-row py-6 gap-6">
+        <div className="flex flex-col md:flex-row py-6 pt-6 gap-6">
           <div className="flex flex-col border border-transparent w-full md:w-1/4 p-6 rounded-lg bg-white/50 shadow-lg shadow-black/30 hover:border-[#ff9022] transition-all duration-500 ease-in-out">
             <h2 className="font-bold text-[#ff9022]  border-b pb-2 ">
               Consultation
