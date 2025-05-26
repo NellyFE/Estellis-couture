@@ -11,7 +11,7 @@ export const About = () => {
       {/* the parent container */}
       <div
         id="aboutsection"
-        className="flex flex-col md:flex-row mx-auto p-12 justify-between md:space-x-8 h-96 gap-28 md:gap-0"
+        className="flex flex-col md:flex-row mx-auto p-12 px-6 md:px-12 justify-between md:space-x-8 h-96 gap-28 md:gap-0"
       >
         {/* image container */}
 
@@ -70,7 +70,7 @@ export const About = () => {
               onClick={() => setActivePage("how")}
               className={`${
                 activePage === "how" && "bg-[#fcbd7d]"
-              }  p-2 w-full md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              }  p-2 w-full text-left md:text-center md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               How&nbsp;it's&nbsp;made
             </button>   
@@ -79,7 +79,7 @@ export const About = () => {
               onClick={() => setActivePage("who")}
               className={`${
                 activePage === "who" && "bg-[#fcbd7d]"
-              } p-2 w-full md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
+              } p-2 w-full text-left md:text-center md:w-1/3 font-semibold rounded-t-0 md:rounded cursor-pointer border border-transparent hover:border-[#fcbd7d] transition-all-ease`}
             >
               Who&nbsp;it's&nbsp;for
             </button>
